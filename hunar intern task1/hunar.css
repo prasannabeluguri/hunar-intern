@@ -1,0 +1,59 @@
+body{
+    body{
+        margin: 0;
+    }
+    .nav{
+        overflow: hidden;
+        background-color: aqua;
+    }
+    .nav a{
+        padding: 30px;
+        text-decoration: none;
+        color: aliceblue;
+        float: left;
+        font-size: 35px;
+        text-shadow: 8px 10px 6px black;
+    }
+    
+    a:hover{
+        background-color: black;
+    }
+}
+.detal{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detal h1{
+    font-size: 50px;
+    color: blue;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(113, 69, 11);
+
+}
+.detal p{
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+.detal a{
+    background-color: rgb(210, 53, 53);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: bisque;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.class h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.class p{
+    font-size: 20px;
+}
+.boss h3{
+    
+
+}
