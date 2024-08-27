@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website - Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/199/073/small_2x/people-hand-entering-password-code-on-virtual-login-form-cyber-internet-security-photo.jpg");
+    }
+</style>
+<body>
+    <header>
+        <h1>Online Course Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="registration">
+            <h2>Register for a Course</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="web-development">Web Development</option>
+                    <option value="graphic-design">Graphic Design</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="digital-marketing">Digital Marketing</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Course Website</p>
+    </footer>
+    <script type="module" src="script.js"></script>
+
+
+</body>
+</html>
